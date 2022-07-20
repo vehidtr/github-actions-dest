@@ -1,0 +1,22 @@
+name: Copy file to different repo
+
+on: push
+
+jobs:
+  copy-file:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Pushes test file
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      with:
+        source_file: './files/.'
+        destination_repo: 'vehidtr/github-actions'
+        destination_folder: 'docs/newDocs'
+        user_email: 'vehid.trtak@gmail.com'
+        user_name: 'vehidtr'
+        commit_message: 'Testing the commits'
