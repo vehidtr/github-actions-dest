@@ -17,6 +17,7 @@ jobs:
         source_file: './files/.'
         destination_repo: 'vehidtr/github-actions'
         destination_folder: 'docs/newDocs'
+        destination_branch: 'master'
         user_email: 'vehid.trtak@gmail.com'
         user_name: 'vehidtr'
         commit_message: 'Testing the commits'
