@@ -9,7 +9,7 @@ created: 2022-02-22
 updated: 2022-04-06
 ---
 
-## What is an XIP?
+## What is an XIP? TEST
 
 XIP stands for XMTP Improvement Proposal. An XIP is a design document providing information to the XMTP community, or describing a new feature for XMTP or its processes or environment. The XIP should provide a concise technical specification of the feature and a rationale for the feature. The XIP author is responsible for building consensus within the community and documenting dissenting opinions.
 
